@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header.jsx';
 import CoreConcept from './components/CoreConcept/CoreConcept.jsx';
+import { CORE_CONCEPT } from './data.js';
 
 function App() {
   return (
@@ -9,10 +10,10 @@ function App() {
       <main>
         <h2>Core Concepts</h2>
         <ul>
-          <CoreConcept title="Components" description="This is the first description"/>
-          <CoreConcept title="Components" description="This is the second description"/>
-          <CoreConcept title="Components" description="This is the third description"/>
-          <CoreConcept title="Components" description="This is the fourth description"/>
+          <CoreConcept title={CORE_CONCEPT[0].title} description={CORE_CONCEPT[0].description}/>
+          <CoreConcept title={CORE_CONCEPT[1].title} description={CORE_CONCEPT[1].description}/>
+          <CoreConcept title={CORE_CONCEPT[2].title} description={CORE_CONCEPT[2].description}/>
+          <CoreConcept title={CORE_CONCEPT[3].title} description={CORE_CONCEPT[3].description}/>
         </ul>
       </main>
     </div>
