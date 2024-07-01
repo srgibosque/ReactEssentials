@@ -9,7 +9,7 @@ function App() {
       <Header></Header>
       <main>
         <h2>Core Concepts</h2>
-        <ul>
+        <ul class="coreConcept-list">
           <CoreConcept title={CORE_CONCEPT[0].title} description={CORE_CONCEPT[0].description}/>
           <CoreConcept title={CORE_CONCEPT[1].title} description={CORE_CONCEPT[1].description}/>
           <CoreConcept title={CORE_CONCEPT[2].title} description={CORE_CONCEPT[2].description}/>

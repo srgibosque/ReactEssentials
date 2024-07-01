@@ -1,0 +1,15 @@
+.coreConcept-card{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+}
+
+.coreConcept-card h3, .coreConcept-card p{
+  margin: 0;
+}
