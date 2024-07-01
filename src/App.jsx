@@ -1,24 +1,6 @@
-import './App.css'
-import reactImage from './assets/react.svg';
-
-function Header(){
-  return (
-    <header>
-      <img src={reactImage} alt="reactImage" />
-      <h1>React Essentials</h1>
-      <p>Fundamental React components for any you will build</p>
-      </header>
-  )
-}
-
-function CoreConcept({title, description}){
-  return(
-    <li>
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </li>
-  )
-}
+import './App.css';
+import Header from './components/Header/Header.jsx';
+import CoreConcept from './components/CoreConcept/CoreConcept.jsx';
 
 function App() {
   return (
