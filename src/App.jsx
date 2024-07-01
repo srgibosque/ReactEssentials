@@ -11,12 +11,27 @@ function Header(){
   )
 }
 
+function CoreConcept({title, description}){
+  return(
+    <li>
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </li>
+  )
+}
+
 function App() {
   return (
     <div>
       <Header></Header>
       <main>
-        Time to get started
+        <h2>Core Concepts</h2>
+        <ul>
+          <CoreConcept title="Components" description="This is the first description"/>
+          <CoreConcept title="Components" description="This is the second description"/>
+          <CoreConcept title="Components" description="This is the third description"/>
+          <CoreConcept title="Components" description="This is the fourth description"/>
+        </ul>
       </main>
     </div>
   )
